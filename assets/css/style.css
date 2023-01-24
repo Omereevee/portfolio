@@ -36,6 +36,7 @@ a:hover{
     color:var(--color-brand);
 }
 img{
+    display: flex;
     width :100%;
    object-fit: cover;
 }
@@ -62,11 +63,8 @@ span{
 
 }
 
-.shadow-effect:hover{
+.shadow-effect:hover{ 
     box-shadow: -6px 6px 0 0 var(--color-brand);
-   transform: rotate(5deg);
-   /* transform: scale(1.05); */
-   /* transform: skewx(10deg); */
 
    transition: all  .8s ease-in-out;
 }
@@ -174,3 +172,19 @@ span{
 
     transform: scale(1.2);
 }
+/*card*/
+.card-custom {
+overflow: hidden;
+}
+.card-costom:hover .card-custom-image img{
+    transition: all 0.4s ease;
+
+}
+
+.card-custom:hover .card-custom-image img{
+    transform: scale(1.1);
+
+}
+
+
+
